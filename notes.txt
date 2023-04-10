@@ -1,0 +1,5 @@
+
+1) Arrary methods 5
+2) Object methods and Object Destructuring
+3) String methods 5
+4) Async JS (promises, try catch, async/await, .then) 
