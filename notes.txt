@@ -1,5 +1,92 @@
 
-1) Arrary methods 5
-2) Object methods and Object Destructuring
-3) String methods 5
-4) Async JS (promises, try catch, async/await, .then) 
+1) Arrary methods - map, forEach, includes, slice, splice
+
+2) String methods - split, concat, substring, endswith, find, format, toUpperCase(), toLowerCase(), replace, join
+
+3) Async JS (callback, promises, async/await) 
+
+
+What is NodeJS:
+
+Ryan Daal
+
+its an Environment to run JS outside the browser
+
+built on top of Chroms V8 Engine 
+
+Huge community support
+
+Full stack 
+
+
+Browser: 
+
+1) DOM 
+
+2) window 
+
+3) Develop interactive 
+
+4) There is no File System 
+
+5) ES6 Modules
+
+
+Node JS:
+
+1) No DOM
+
+2) No window 
+
+3) Server Side Rendering / Server side Application
+
+4) File System
+
+5) CommonJS
+
+
+// import {img1, img2} from '../../image'
+
+// const img1 = require('../../image) 
+
+
+
+// 2 ways to Run node js: 
+
+1) REPL: Real Eval Print Loop
+
+2) CLI: VS Code 
+
+
+
+
+// Global Variable 
+
+1) __dirname - path to the current directory 
+
+2) __filename - file name 
+
+3) require - function to use the module (CommonJS)
+
+4) module - information about the current module 
+
+5) process - info about the env where the program is exe
+
+
+// Modules 
+
+In common JS ideally every files can be called as a module.
+
+there are 3 types of modules: 
+
+1) in built modules --> const x = require('y') --> os module, path module, fs sync, fs async, http
+2) User created modules --> const x = require('../../pathName')
+3) external modules  --> const x = require('ExternalModule')
+
+
+FS Module: File System:
+
+1) Synchronous -> read and write -> readFileSync and writeFileSync
+2) Asynchronous -> read and write -> readFile and writeFile
+
+
