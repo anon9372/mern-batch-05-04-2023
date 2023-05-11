@@ -90,3 +90,10 @@ FS Module: File System:
 2) Asynchronous -> read and write -> readFile and writeFile
 
 
+// Event loop, async pattens, event emitter and streams
+
+Event Loop: 
+JS is a single threaded language
+It allows nodejs to perform non blocking I/O operation -> offloading the task 
+-> Call Stack and Event Loop stack
+
