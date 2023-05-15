@@ -97,3 +97,7 @@ JS is a single threaded language
 It allows nodejs to perform non blocking I/O operation -> offloading the task 
 -> Call Stack and Event Loop stack
 
+
+// event emitter: 
+
+<input onChange={() => setValue()} />
