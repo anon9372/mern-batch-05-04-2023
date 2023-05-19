@@ -134,3 +134,7 @@ Libraray vs Framework
 
 // CURD Operation -> Create, Read, Update and Delete
 
+
+// Query and Params 
+// Params: Parameters....
+
